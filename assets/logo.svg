@@ -1,0 +1,48 @@
+<<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Logotipo vetorial simples para a aplicação HTraining. Este arquivo foi
+  desenhado manualmente para substituir a arte original de baixa resolução
+  fornecida pelo usuário. O design utiliza formas básicas para criar um
+  símbolo estilizado inspirado na letra H acompanhado de tipografia.
+-->
+<svg
+  width="600"
+  height="180"
+  viewBox="0 0 600 180"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- fundo escuro -->
+  <rect width="600" height="180" fill="#0a0a0a" />
+  <!-- barras verticais para formar um H estilizado -->
+  <rect x="40" y="40" width="14" height="100" fill="#ffffff" />
+  <rect x="75" y="30" width="14" height="120" fill="#ffffff" />
+  <rect x="110" y="50" width="14" height="90" fill="#ffffff" />
+  <!-- curva estilizada atravessando as barras -->
+  <path
+    d="M20 60 C 60 130, 120 80, 160 110"
+    stroke="#ffffff"
+    stroke-width="8"
+    fill="none"
+    stroke-linecap="round"
+  />
+  <!-- texto principal -->
+  <text
+    x="200"
+    y="90"
+    font-family="Arial, sans-serif"
+    font-size="48"
+    fill="#ffffff"
+  >
+    HTRAINING
+  </text>
+  <!-- tagline -->
+  <text
+    x="200"
+    y="125"
+    font-family="Arial, sans-serif"
+    font-size="20"
+    fill="#cccccc"
+  >
+    Instituto de Crescimento e Integração Digital
+  </text>
+</svg>
