@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Check‑in - HTraining</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.svg" alt="HTraining logo" class="logo" />
+    </header>
+    <main>
+      <h1>Check‑in de Participantes</h1>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Buscar por nome ou e‑mail"
+      />
+      <table id="checkin-table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>E‑mail</th>
+            <th>Telefone</th>
+            <th>Status</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="checkin-message" class="hidden message"></div>
+    </main>
+    <!-- Biblioteca Supabase para integração com o banco de dados -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
