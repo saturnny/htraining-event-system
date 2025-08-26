@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTraining - Inscrição de Eventos</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/logo.svg" alt="HTraining logo" class="logo" />
+    </header>
+    <main>
+      <h1>Inscreva‑se para o evento</h1>
+      <form id="registration-form">
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" required />
+
+        <label for="email">E‑mail</label>
+        <input type="email" id="email" required />
+
+        <label for="phone">Telefone</label>
+        <input type="tel" id="phone" required />
+
+        <label for="ticket-type">Tipo de ingresso</label>
+        <select id="ticket-type" required></select>
+
+        <label for="lot-select">Lote</label>
+        <select id="lot-select" required></select>
+
+        <button type="submit">Registrar</button>
+      </form>
+      <div id="success-message" class="hidden">
+        <p>
+          Registro realizado com sucesso! Clique no botão abaixo para prosseguir
+          ao pagamento.
+        </p>
+        <button id="payment-button">Ir para pagamento</button>
+      </div>
+    </main>
+    <!-- Biblioteca Supabase para integração com o banco de dados -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
