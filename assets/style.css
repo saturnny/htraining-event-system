@@ -1,0 +1,161 @@
+/* Estilos base para o sistema de eventos */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+header {
+  background: #101010;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Limita a largura do conteúdo e centraliza */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #333333;
+  background: #0e0e0e;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Estilo envoltório do formulário para destacar sobre o fundo */
+form {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007acc;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #333333;
+  text-align: left;
+}
+
+/* Listras alternadas para melhorar legibilidade */
+table tbody tr:nth-child(odd) {
+  background: #161616;
+}
+table tbody tr:nth-child(even) {
+  background: #0f0f0f;
+}
+
+table tbody tr:hover {
+  background: #222222;
+}
+
+/* Cabeçalho das tabelas com uma tonalidade diferente */
+table thead th {
+  background: #1a1a1a;
+  border-bottom: 2px solid #333333;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Mensagens de feedback (ex: check‑in realizado) */
+.message {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 4px;
+  background: #134a27;
+  color: #a1dfa3;
+  font-size: 0.9rem;
+}
+
+/* Barra de busca destacada na página de check‑in */
+#search-input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #333333;
+  background: #0e0e0e;
+  color: #ffffff;
+}
+
+/* Estilos específicos para gerenciamento de lotes */
+/* Cartões individuais para cada lote no painel admin */
+.lot-item {
+  background: #1c1c1c;
+  border: 1px solid #333333;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.lot-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.lot-item label {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.lot-item label input,
+.lot-item label select {
+  margin-left: 8px;
+  padding: 6px 8px;
+  background: #0e0e0e;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 4px;
+}
